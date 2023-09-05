@@ -55,9 +55,21 @@ Notre cabinet dentaire, Rhône Dental Clinic s’adapte aux emplois du temps les
 
 </p>
 
+<div class="vertical-padding"></div>
+
     </div>
 
-
+<script>window.addEventListener('scroll', function() {
+    var arrowTop = document.getElementById('arrow-top');
+    if (window.scrollY > 0) {
+      // Scrolled down, make the element visible
+      arrowTop.style.display = 'block';
+    } else {
+      // At the top, hide the element
+      arrowTop.style.display = 'none';
+    }
+  });
+  </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

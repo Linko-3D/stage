@@ -59,8 +59,12 @@ h2 {
     right: 10px;
     bottom: 10px;
     font-size: 2.5rem;
-    color: #b39d78;;
-}
+    color: #b39d78;
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+    opacity: 1; /* Initially fully opaque */
+  }
+  
 
 p {
     margin-bottom: 20px;
@@ -73,4 +77,10 @@ p {
     background-color: black;
     display: none;
 
+}
+
+
+
+.vertical-padding {
+    height: 100vh;
 }
