@@ -60,10 +60,8 @@ h2 {
     bottom: 10px;
     font-size: 2.5rem;
     color: #b39d78;
-    display: none; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Add a smooth transition effect */
-    opacity: 1; /* Initially fully opaque */
-  }
+    display: none;
+}
   
 
 p {
