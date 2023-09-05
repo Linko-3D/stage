@@ -40,6 +40,10 @@ body {
     font-size: 14px;
 }
 
+body.active-scroll {
+    overflow: hidden; /* Prevent scrolling when the menu is active */
+}
+
 .icon {
     font-size: 2.5rem;
 }
@@ -70,6 +74,7 @@ p {
 }
 
 .popup-menu {
+    gap: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +85,7 @@ p {
     height: 100%;
     background-color: black;
     top: -100%; /* Initially hidden above the screen */
-    transition: top 0.3s ease-in-out; /* Transition for smooth sliding */
+    transition: top 0.2s ease-in-out; /* Transition for smooth sliding */
 }
 
 .active {
