@@ -80,7 +80,9 @@ p {
     display: flex;
 }
 
-
+strong {
+    font-weight: 600;
+}
 
 .vertical-padding {
     height: 100vh;
