@@ -26,6 +26,16 @@ header {
     padding: 0px 20px;
 }
 
+.logo {
+    text-align: center;
+    width: 100%;
+}
+
+.menu-icon {
+    text-align: right;
+}
+
+
 body {
     background-color: #f1f0e9;
     font-size: 14px;
@@ -53,8 +63,3 @@ h2 {
     font-size: 2.5rem;
     color: #b39d78;;
 }
-
-p {
-    margin-bottom: 20px;
-  }
-  
