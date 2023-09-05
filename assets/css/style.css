@@ -26,15 +26,13 @@ header {
     padding: 0px 20px;
 }
 
-.logo {
-    text-align: center;
-    width: 100%;
+.side {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
-
-.menu-icon {
-    text-align: right;
-}
-
 
 body {
     background-color: #f1f0e9;
