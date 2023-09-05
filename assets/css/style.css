@@ -45,3 +45,11 @@ h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
+#arrow-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 2.5rem;
+    color: #b39d78;;
+}
