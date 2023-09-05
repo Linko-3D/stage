@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
+    z-index: 5;
 }
 
 .side {
@@ -69,6 +70,11 @@ p {
 }
 
 .popup-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -81,6 +87,11 @@ p {
     top: 0%; /* Slide to the center of the screen when active */
 }
 
+.popup-menu a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
 
 strong {
     font-weight: 600;
