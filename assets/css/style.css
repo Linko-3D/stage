@@ -73,12 +73,14 @@ p {
     width: 100%;
     height: 100%;
     background-color: black;
-    display: none;
+    top: -100%; /* Initially hidden above the screen */
+    transition: top 0.3s ease-in-out; /* Transition for smooth sliding */
 }
 
 .active {
-    display: flex;
+    top: 0%; /* Slide to the center of the screen when active */
 }
+
 
 strong {
     font-weight: 600;

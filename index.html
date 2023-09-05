@@ -17,15 +17,14 @@
         <ion-icon name="arrow-up-circle"></ion-icon>
     </a>
 
-    <div class="popup-menu"></div>
-
     <header>
         <div class="side"></div>
         <div class="logo">LOGO</div>
         <div class="side">
-            <ion-icon class="icon" name="menu-outline"></ion-icon>
+            <ion-icon class="icon" id="menu-icon" name="menu-outline"></ion-icon>
         </div>
     </header>
+    <div class="popup-menu"></div>
     
 
     <div class="container">
@@ -80,6 +79,25 @@ window.addEventListener("scroll", function() {
         arrowTop.style.display = "none";
     }
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.getElementById("menu-icon");
+    const popupMenu = document.querySelector(".popup-menu");
+
+    menuIcon.addEventListener("click", function () {
+        if (menuIcon.getAttribute("name") === "menu-outline") {
+            menuIcon.setAttribute("name", "close-outline");
+            popupMenu.classList.add("active");
+        } else {
+            menuIcon.setAttribute("name", "menu-outline");
+            popupMenu.classList.remove("active");
+        }
+    });
+});
+
   </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
