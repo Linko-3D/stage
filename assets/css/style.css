@@ -31,8 +31,11 @@ header {
     width: 20vw;
     height: 100%;
     display: flex;
-    justify-content: right;
     align-items: center;
+}
+
+.right {
+    justify-content: right;
 }
 
 body {
@@ -110,4 +113,9 @@ strong {
 
 .logo {
     height: 100%;
+}
+
+select {
+    color: white;
+    background-color: black;
 }
