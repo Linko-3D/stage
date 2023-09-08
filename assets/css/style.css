@@ -50,6 +50,8 @@ body.active-scroll {
 
 .container {
     padding-top: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
@@ -104,4 +106,8 @@ strong {
 
 .vertical-padding {
     height: 100vh;
+}
+
+.logo {
+    height: 100%;
 }
